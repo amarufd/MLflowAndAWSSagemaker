@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "650b5aeb-cb26-4d98-a74a-4b129af8e596",
+		"name": "demo-covid-19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://hvtlcymmqf.execute-api.us-east-2.amazonaws.com/demo/covid-19-demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"data\": [\n        [\n            44,1936\n        ]\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://XXXXXXX.execute-api.us-east-2.amazonaws.com/demo/covid-19-demo",
+					"protocol": "https",
+					"host": [
+						"XXXXXXX",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"demo",
+						"covid-19-demo"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
