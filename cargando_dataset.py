@@ -51,7 +51,7 @@ def procesando_dataset(datos):
 
 if __name__ == '__main__':
     x_train, x_test, y_train, y_test = load_dataset_to_mlflow(
-        'TotalesNacionales.csv', ','
+        'datos/TotalesNacionales.csv', ','
     )
     print(x_train.head())
     print(y_train.head())

@@ -13,7 +13,7 @@ if __name__ == '__main__':
     print("Endpoint status: ", endpoint["EndpointStatus"])
     # Cargando dataset
     x_train, x_test, y_train, y_test = load_dataset(
-        'TotalesNacionales.csv', ','
+        'datos/TotalesNacionales.csv', ','
     )
     # Prediciendo los primeros 10 datos
     input_data = x_test[:10].to_json(orient="split")

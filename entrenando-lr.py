@@ -8,7 +8,7 @@ if __name__ == '__main__':
     mlflow.set_experiment('covid-19-lr')
     with mlflow.start_run(run_name='covid-19-lr-basic') as run:
         x_train, x_test, y_train, y_test = load_dataset(
-            'TotalesNacionales.csv', ','
+            'datos/TotalesNacionales.csv', ','
         )
 
         linear_regr = linear_model.LinearRegression()
